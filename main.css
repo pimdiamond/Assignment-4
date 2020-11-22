@@ -68,3 +68,20 @@ header nav ul li {
     right: 550px;
     color: #807D7D;
 }
+.hero-content h1 {
+	font-family: 'Caveat Brush', cursive;
+    font-size: 54px;
+    padding-right: 170px;
+}
+
+h2 {
+	font-family: 'Caveat Brush', cursive;
+    text-transform: none;
+    font-size: 48px;
+}
+
+.hero-content p {
+	font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    padding-top: 41px;
+}
