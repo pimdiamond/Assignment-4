@@ -136,3 +136,30 @@ h2 {
 .book-class:hover {
     background-color: #F4A73D
 }
+
+.other-monsters-container {
+    text-align: center;
+    clear: both;
+}
+
+.individual-monster {
+    width: 19%;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.individual-monster img {
+    width: 100%;
+}
+
+.individual-monster h3 {
+    position: absolute;
+    bottom: 1px;
+    z-index: 9;
+    width: 100%;
+    text-align: center;
+    color: #616161;
+    font-size: 20px;
+    text-transform: none;
+}
