@@ -39,3 +39,32 @@ header a {
 header nav ul li {
     display: inline;
 }
+/*===================================
+
+
+  Hero Section Styling
+
+
+*=====================================*/
+.top-hero {
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 80vh;
+    z-index: 1;
+    background-color: #EFD4D4;
+}
+
+.top-hero img {
+    max-width: 600px;
+    margin: 100px 600px;
+    float: none;
+}
+
+.hero-content {
+    position: absolute;
+    top: 30%;
+    right: 550px;
+    color: #807D7D;
+}
