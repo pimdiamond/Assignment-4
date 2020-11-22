@@ -8,3 +8,34 @@
     font-style: normal;
     font-weight: 300;
 }
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/*===================================
+
+
+  Header Styling
+
+
+*=====================================*/
+header {
+    text-align: center;
+    background-color: #EFD4D4;
+    padding: 35px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999999;
+}
+
+header a {
+    font-weight: normal;
+    color: #807D7D;
+    margin: 0px 10px;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+header nav ul li {
+    display: inline;
+}
