@@ -133,3 +133,6 @@ h2 {
     text-align: center;
     font-weight: bold;
 }
+.book-class:hover {
+    background-color: #F4A73D
+}
