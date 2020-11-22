@@ -163,3 +163,17 @@ h2 {
     font-size: 20px;
     text-transform: none;
 }
+.po {
+	position: absolute;
+	top: 4px;
+	left: 30px;
+	animation: walk 3s forwards infinite linear;	
+}
+
+@keyframes walk {
+	from {
+		transform: translateX(3px);
+	}
+	to {transform: translateX(1000px);	
+	}
+}
